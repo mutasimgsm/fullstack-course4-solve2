@@ -25,20 +25,25 @@ p {
   margin: 45px 10px 10px;
 }
 
-#sct1 {
-  background-color: #DCDCDC;
-}
-#sct1 > span {
-  background-color: #FF7F50;
+#sct1 > span, #sct2 > span, #sct3 > span {
+  border: solid 1px #000000;
+  width: 35%;
   position: absolute;
   top: 0;
   right: 0;
   padding: 8px;
   font-size: 150%;
-  width: 100px;
   text-align: center;
+}
+
+#sct1 {
+  background-color: #DCDCDC;
+}
+#sct1 > span {
+  background-color: #FF7F50;
+  text-align: center;*/
   font-family: Helvetica, sans-serif;
-  color:
+
 }
 
 #sct2 {
@@ -46,13 +51,6 @@ p {
 }
 #sct2 > span {
   background-color: #D2691E;
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 8px;
-  font-size: 150%;
-  width: 100px;
-  text-align: center;
   color: #ffffff;
   font-family: Helvetica, sans-serif;
 }
@@ -64,12 +62,6 @@ p {
 #sct3 > span {
   background-color: #DEB887;
   position: absolute;
-  top: 0;
-  right: 0;
-  padding: 8px;
-  font-size: 150%;
-  width: 100px;
-  text-align: center;
   font-family: Helvetica, sans-serif;
 }
 
@@ -81,6 +73,12 @@ p {
   #sct3 {
     width: 97%;
   }
+  #sct1 > span, #sct2 > span{
+    width: 40%;
+  }
+  #sct3 > span {
+    width: 25%;
+  }
 }
 
 /***** Media queries for small deices (mobiles) ********/
@@ -88,4 +86,6 @@ p {
   #sct1, #sct2, #sct3 {
     width: 97%;
   }
+  #sct1 > span, #sct2 > span, #sct3 > span {
+    width: 35%;
 }
