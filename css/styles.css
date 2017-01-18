@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #61122F;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+section {
+  width: 32%;
+  float: left;
+  border: solid 2px #ffffff;
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  font-family: serif;
+  position: relative;
+}
+
+p {
+  margin: 45px 10px 10px;
+}
+
+#sct1 {
+  background-color: #DCDCDC;
+}
+#sct1 > span {
+  background-color: #FF7F50;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
+  font-size: 150%;
+  width: 100px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color:
+}
+
+#sct2 {
+  background-color: #FFE4B5;
+}
+#sct2 > span {
+  background-color: #D2691E;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
+  font-size: 150%;
+  width: 100px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+}
+
+
+#sct3 {
+  background-color: #B0C4DE;
+}
+#sct3 > span {
+  background-color: #DEB887;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
+  font-size: 150%;
+  width: 100px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+/****** Media queries for medium devices (tablets) *****/
+@media (min-width: 768px) and (max-width: 991px) {
+  #sct1, #sct2 {
+    width: 48%;
+  }
+  #sct3 {
+    width: 97%;
+  }
+}
+
+/***** Media queries for small deices (mobiles) ********/
+@media (max-width: 767px){
+  #sct1, #sct2, #sct3 {
+    width: 97%;
+  }
+}
