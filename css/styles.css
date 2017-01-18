@@ -24,7 +24,7 @@ section {
 p {
   margin: 45px 10px 10px;
 }
-
+/* Span erea styles*/
 #sct1 > span, #sct2 > span, #sct3 > span {
   border: solid 1px #000000;
   width: 35%;
